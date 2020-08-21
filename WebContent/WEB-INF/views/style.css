@@ -1,0 +1,142 @@
+#menuItems{
+	width:80%;
+	margin:100px auto;
+	background-color:#F5F5F5;
+	padding:50px;
+}
+#menuAction{
+	display:flex;
+	flex:1;
+	width:100%;
+	justify-content:space-between;
+}
+
+#menuAction div{
+	flex-basis:45%;
+	text-align:center;
+	color:white;
+	padding:20px 0px;
+	background-color:black;
+	border-radius:10px;
+}
+
+#menuAction div a{
+	text-decoration:none;
+	color:white;
+}
+#menuItems h2{
+	text-align:Center;
+	padding-bottom:40px;
+}
+#item{
+	display:flex;
+	flex-wrap:wrap;
+	box-sizing:border-box;
+	justify-content:space-between;
+}
+
+#item div{
+	flex-basis:25%;
+	padding:20px 10px;
+	box-sizing:border-box;
+	text-align:center;
+	margin:10px;
+	background-color:#004c00;
+	color:white;
+	border-radius:8px;
+	font-size:18px;
+}
+
+input[type="submit"]{
+	text-align:right;
+	margin-top:50px;
+	padding:15px 15px;
+	background-color:black;
+	color:white;
+	margin-left:45%;
+}
+input[type="number"]{
+	width:90px;
+	height:20px;
+	margin-bottom:5px;
+}
+#selected{
+	width:350px;
+	margin:0px auto;
+	padding-left:40px;
+	text-align:center;
+}
+
+table {
+	border-spacing:3px;
+	border:4px solid #F5F5F5;
+	padding:30px;
+}
+
+table td{
+	padding:9px;
+}
+
+table #head{
+	background-color:red;
+	color:white;
+}
+
+#orderRegistered{
+	margin:0px auto;
+	width:500px;
+}
+
+#orderUnpaid{
+	width:90%;
+	margin:5px auto;
+	text-align:center;
+}
+
+#orderUnpaid h3, #receipt h3{
+	background-color:black;
+	padding:10px 0px;
+	color:white;
+}
+
+#orderBox{
+	display: flex;
+	justify-content:space-between;
+}
+
+#orderBox div{
+	flex-basis:30%;
+	background-color:#004c00;
+	color:white;
+	padding:20px;
+}
+
+#orderBox div span{
+	padding:10px 0px;
+}
+
+#orderBox div a{
+	text-decoration:none;
+	color:white;
+	background-color:black;
+	padding:10px;
+	border-radius:10px;
+	margin:5px;
+}
+#receipt{
+	width:40%;
+	margin:5px auto;
+	text-align:center;
+}
+#receipt table{
+	width:100%;
+}
+#totalOrder{
+	background-color:red;
+}
+.receiptRegistered{
+	background-color:#004c00;
+	text-align:center;
+	padding:20px;
+	color:white;
+}
